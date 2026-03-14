@@ -12,8 +12,6 @@ import { TodoFooter } from './components/TodoFooter/TodoFooter';
 import { TodoError } from './components/TodoError/TodoError';
 
 export const App: React.FC = () => {
-  // TODO: link all states in one if possible
-  // TODO: add enums for errors and filter status
   const [editingStates, setEditingStates] = useState<UIEditingStates>({
     isFocusTitle: false,
     selectedTodo: null,
